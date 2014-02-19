@@ -11,7 +11,7 @@ body>header {
     right: 0;
     z-index: 100;
     color: white;
-    background: url('images/zus_index_midsize.jpg');
+    background: url('../images/zus_index_midsize.jpg');
     background-size: 100%;
     margin: 0px auto 30px auto;
     line-height: 50px;
@@ -191,7 +191,7 @@ body>header a:hover {
 }
 
 .user-about {
-    background: url(images/bg.jpg) no-repeat;
+    background: url('../images/bg.jpg') no-repeat;
     background-size: 100% 120%;
     padding: 20px;
     text-align: center;
