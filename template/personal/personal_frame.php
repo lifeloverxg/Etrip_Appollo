@@ -1,7 +1,6 @@
 <?php
 // HTML header
 include $home . "template/common/header.php";
-include  $home . "template/common/top.php";
 ?>
 <div class="left-main-wrap">
 <?php
