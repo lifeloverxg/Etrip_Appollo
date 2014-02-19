@@ -31,14 +31,14 @@
 	date_default_timezone_set('EST');
 	
 	// load configure file
-	include_once(S_ROOT.'conf/config.php');
+//	include_once(S_ROOT.'conf/config.php');
 
 	// load modules
-	foreach (glob(S_ROOT.'util/*.php') as $module) { 
-		include_once($module);
-	}
+//	foreach (glob(S_ROOT.'util/*.php') as $module) { 
+//		include_once($module);
+//	}
 
-	Authority::refresh_session();
+//	Authority::refresh_session();
 	
 	// TODO: get cookies
 

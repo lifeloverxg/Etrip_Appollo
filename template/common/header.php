@@ -30,7 +30,9 @@
 -->
 	<link rel="stylesheet" href="../../theme/common.css">
         <link rel="stylesheet" href="../../theme/bootstrap/bootstrap.css">
-
+<?php foreach ($stylesheet as $value) { ?>
+		<link rel="stylesheet" href="<?php echo $home . $value; ?>">
+<?php } ?>
 		<title>首页</title>
 	</head>
 	<body>
