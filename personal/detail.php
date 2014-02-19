@@ -14,12 +14,54 @@
 
 	$stylesheet = array("theme/common.css",
 						"theme/personal/detail.css",
-						"theme/common_junxiao.css"
+						"theme/common_junxiao.css",
+						"theme/feed.css"
 						);
 
 	$auth = array(
-					'url' => 'theme/image/',
+					'uid' => 1,
+					'url' => '#',
+					'image_large' => 'theme/images/personal/self.jpg',
+					'image' => 'theme/images/personal/self.jpg',
+					'alt' => 'self',
+					'title' => 'self'
 					);
+	$feed_list = array(
+						'add_feed' => array(
+											'action' => '',
+											'title' => '发表新鲜事'
+											),
+						);
+	$feed_list_large = array(
+							array(
+								'owner' => array(
+												'url' => '#',
+												'image_large' => 'theme/images/personal/server.jpg',
+												'alt' => '客服',
+												'title' => '客服'
+												),
+								'content' => '请问您想用何种方式支付',
+								'timestamp' => '2014-02-18 15:23:14',
+								'id' => 1,
+								'func' => array(
+												'reply' => ''
+												)
+								),
+							array(
+								'owner' => array(
+												'url' => '#',
+												'image_large' => 'theme/images/personal/server.jpg',
+												'alt' => '客服',
+												'title' => '客服'
+												),
+								'content' => '请问您对于这次旅行有什么看法',
+								'timestamp' => '2014-02-18 20:23:14',
+								'id' => 2,
+								'func' => array(
+												'reply' => ''
+												)
+								)
+							);
 /*	
 	$auth = Authority::get_auth_arr();
 
