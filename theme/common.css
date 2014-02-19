@@ -23,12 +23,10 @@ body>header {
 
 body>footer {
     width: 80%;
-    height: 60px;
+    height: 200px;
     position: relative;
     top: 20px;
-    background: rgba(0, 0, 0, 0.8);
     margin: 0px auto;
-    padding: 15px;
     color: white;
     font-size: 10px;
 }
@@ -88,7 +86,8 @@ body>header a:hover {
 }
 
 .logo-inc {
-    height: 30px;
+    width: 90px;
+    height: 50px;
     margin-left: 20px;
 }
 
@@ -259,4 +258,33 @@ body>header a:hover {
     padding: 20px;
     color: white;
     line-height: 12px;
+}
+
+.footer-copyright {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    line-height: 8px;
+}
+
+.footer-copyright p {
+    color: #CCC;
+}
+
+.footer-info {
+    display: table;
+    text-align: left;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.footer-info>.info-column {
+    display: table-cell;
+}
+
+.footer-info {
+    width: 100%;
+    height: 130px;
+    background: rgba(0, 0, 0, 0.5);
 }
