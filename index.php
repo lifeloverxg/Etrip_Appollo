@@ -5,7 +5,7 @@
 		<!-- <meta name="description" content="" />
 		<meta name="keywords" content="" /> -->
 		<link rel="stylesheet" href="common.css">
-        <link rel="stylesheet" href="bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="theme/bootstrap/bootstrap.css">
 
 		<title>首页</title>
 	</head>
