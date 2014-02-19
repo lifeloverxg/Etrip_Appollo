@@ -51,9 +51,9 @@
                         <p>未来旅行愿望： 阿拉斯加看极光，乞力马扎罗山</p><br>
                         <table class="user-buttons">
                             <tr>
-                                <td><button class="travel-botton">旅行游记</button></td>
-                                <td><button class="travel-botton">旅行相册</button></td>
-                                <td><button class="travel-botton">旅行规划</button></td>
+                                <td><button class="travel-button">旅行游记</button></td>
+                                <td><button class="travel-button">旅行相册</button></td>
+                                <td><button class="travel-button">旅行规划</button></td>
                             </tr>
                         </table>
                     </div>
@@ -64,7 +64,7 @@
                         <form action="" method="post">
                             <label>请输入时间：</label><input type="text" name="travel-time" /><br>
                             <label>请输入地点：</label><input type="text" name="travel-location" /><br>
-                            <input type="submit" class="travel-botton" style="float: right;" value="点击搜索" />
+                            <input type="submit" class="travel-button" style="float: right;" value="点击搜索" />
                         </form>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                             <p style="font-size: 12px;">体验与众不同“意国”情调</p>
                             <p style="font-size: 12px;">2014夏季特别推荐</p>
                             <p style="font-size: 12px;">每月1或16日出发</p>
-                            <button class="travel-botton" style="float: right;">更多路线</button>
+                            <button class="travel-button" style="float: right;">更多路线</button>
                         </div>
                     </div>
                     <div class="middle-detail" style="margin-bottom: 20px;">
@@ -92,7 +92,7 @@
                             <p style="font-size: 12px;">体验与众不同“意国”情调</p>
                             <p style="font-size: 12px;">2014夏季特别推荐</p>
                             <p style="font-size: 12px;">每月1或16日出发</p>
-                            <button class="travel-botton" style="float: right;">更多资讯</button>
+                            <button class="travel-button" style="float: right;">更多资讯</button>
                         </div>
                     </div>
                     <div class="middle-detail">
@@ -105,7 +105,7 @@
                             <p style="font-size: 12px;">体验与众不同“意国”情调</p>
                             <p style="font-size: 12px;">2014夏季特别推荐</p>
                             <p style="font-size: 12px;">每月1或16日出发</p>
-                            <button class="travel-botton" style="float: right;">更多服务</button>
+                            <button class="travel-button" style="float: right;">更多服务</button>
                         </div>
                     </div>
                 </div>
@@ -113,21 +113,5 @@
             <section class="section-bottom">
                 
             </section>
-        </section>
-        <footer>
-            <div class="footer-info">
-                <div class="info-column">联系我们</div>
-                <div class="info-column">关注我们</div>
-                <div class="info-column">建议我们</div>
-            </div>
-            <div class="footer-copyright">
-                <a class="nav-brand" href="#" style="float: right;">
-                    <img src="images/logo.png" class="logo-inc">
-                </a>
-                <p>© Copyright Trip LLC 2014</p>
-                <p>A company registered in China, Company number: 1348789</p>
-                <p>Registered address: Trip LLC, Top floor, Hyatt Hotel, Jianguo Street, Beijing, 100020</p>
-            </div>
-        </footer>
-    </body>
-</html>
+
+<?php include "template/common/footer.php"; ?>

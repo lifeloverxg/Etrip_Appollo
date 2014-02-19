@@ -23,12 +23,11 @@ body>header {
 
 body>footer {
     width: 80%;
-    height: 200px;
+    height: 190px;
     position: relative;
     top: 20px;
     margin: 0px auto;
-    color: white;
-    font-size: 10px;
+    min-width: 800px;
 }
 
 body>section {
@@ -46,7 +45,7 @@ body>header a {
     text-decoration: none;
     color: #FFF;
     font-weight: bold;
-    font-family: "幼圆", "宋体", Arial, sans-serif;
+    font-family: 'Microsoft Yahei', '微软雅黑', Arial, sans-serifb;
 }
 
 body>header a:hover {
@@ -232,7 +231,7 @@ body>header a:hover {
     border-bottom: 2px solid #000;
 }
 
-.travel-botton {
+.travel-button {
     border: 0;
     background: rgba(0, 0, 0, 0.6);
     height: 30px;
@@ -270,21 +269,44 @@ body>header a:hover {
 
 .footer-copyright p {
     color: #CCC;
+    font-size: 10px;
 }
 
 .footer-info {
-    display: table;
-    text-align: left;
-    padding: 10px;
-    vertical-align: middle;
-}
-
-.footer-info>.info-column {
-    display: table-cell;
-}
-
-.footer-info {
-    width: 100%;
-    height: 130px;
     background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 120px;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    overflow: hidden;
+    padding: 2px;
+}
+
+.footer-info p {
+    margin-bottom: 0;
+}
+
+.info-column {
+    float: left;
+    width: 29%;
+    height: 100%;
+    margin: 0px 2%;
+}
+
+.info-column a {
+    color: yellow;
+}
+
+.info-column>ul {
+    padding: 0px;
+}
+
+.info-column>ul>li {
+    display: inline-block;
+}
+
+.info-column>ul>li img {
+    border-radius: 10px;
+    padding: 1px;
 }
