@@ -1,0 +1,262 @@
+body {
+    width: 100%;
+}
+
+body>header {
+    width: 80%;
+    height: 350px;
+    position: relative;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    color: white;
+    background: url('images/zus_index_midsize.jpg');
+    background-size: 100%;
+    margin: 0px auto 30px auto;
+    line-height: 50px;
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    min-width: 800px;
+}
+
+body>footer {
+    width: 80%;
+    height: 60px;
+    position: relative;
+    top: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 0px auto;
+    padding: 15px;
+    color: white;
+    font-size: 10px;
+}
+
+body>section {
+    position: relative;
+    top: 20px;
+    width: 80%;
+    margin: 0px auto;
+    height: auto;
+    overflow: hidden;
+    background: transparent;
+    min-width: 800px;
+}
+
+body>header a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    font-family: "幼圆", "宋体", Arial, sans-serif;
+}
+
+body>header a:hover {
+    text-decoration: none;
+    color: #fdc286;
+}
+
+.header-top {
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.header-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header-button {
+    display: inline-block;
+    float: right;
+    height: 30px;
+    line-height: 29px;
+    margin: 10px 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    border: 0;
+}
+
+.nav-brand {
+    float: left;
+}
+
+.logo-inc {
+    height: 30px;
+    margin-left: 20px;
+}
+
+/*Navigation bar*/
+.nav-main {
+    float: left;
+    width: 50%;
+    height: inherit;
+    padding-left: 5%;
+    vertical-align: center;
+    white-space: nowrap;
+    margin-left: 23%;
+}
+
+.nav-main>ul>li {
+    margin-right: 5%;
+    display: inline-block;
+    text-align: center;
+    height: inherit;
+    width: 14%;
+}
+
+.nav-main>ul>li.current {
+    background: #745d7f;
+}
+
+.panel-user {
+    float: right;
+    width: 13%;
+    height: inherit;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.panel-user-login {
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    min-width: 50px;
+}
+
+.panel-user-main {
+    display: inline-block;
+    height: inherit;
+    width: 50%;
+    min-width: 160px;
+    white-space: nowrap;
+    font-family: "幼圆", "宋体", Arial, sans-serif;
+}
+
+.panel-user-main>a>span {
+    padding-right: 5px;
+}
+
+.panel-user-main>a>img {
+    height: 35px;
+}
+
+.panel-user-main>nav {
+    display: none;
+    text-align: center;
+    background: rgba(51, 28, 63, 1);
+    box-shadow: 0px 2px 5px #000;
+}
+
+.panel-user-main:hover>nav {
+    display: block;
+}
+
+.panel-user-main>nav>ul>li:hover {
+    background: rgba(108, 48, 139, 1);
+}
+
+.panel-user-main>nav>ul>li>a:hover {
+    color: white;
+}
+
+.section-middle {
+    width: 96%;
+    margin: 0px auto 30px auto;
+    overflow: hidden;
+}
+
+.section-bottom {
+    width: 100%;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.section-middle-left {
+    float: left;
+    width: 37%;
+    margin-right: 3%;
+}
+
+.section-middle-right {
+    float: left;
+    width: 60%;   
+    height: 595px;
+}
+
+.user-about {
+    background: url(images/bg.jpg) no-repeat;
+    background-size: 100% 120%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    height: 405px;
+    margin-bottom: 20px;
+}
+
+.user-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-bottom: 20px;
+}
+
+.user-buttons {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+.user-info {
+    font-weight: bold;
+    line-height: 25px;
+    margin: 10px 120px;
+    border-top: 2px solid #000;
+}
+
+.travel-search {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: white;
+    height: 170px;
+    overflow: hidden;
+}
+
+.block-header {
+    margin: 0px 20px 15px 0px;
+    border-bottom: 2px solid #000;
+}
+
+.travel-botton {
+    border: 0;
+    background: rgba(0, 0, 0, 0.6);
+    height: 30px;
+    padding: 5px;
+    color: white;
+}
+
+.middle-detail {
+    background: rgba(0, 0, 0, 0.5);
+    height: 185px;
+}
+
+.detail-img {
+    height: 185px;
+    width: 50%;
+    float: left;
+}
+
+.detail-info {
+    float: left;
+    height: 185px;
+    width: 50%;
+    padding: 20px;
+    color: white;
+    line-height: 12px;
+}
