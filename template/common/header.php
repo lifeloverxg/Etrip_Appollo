@@ -74,8 +74,22 @@
 						<a href="#">登录</a>
 					</div>
 <?php } ?>
-				</div>
-				
+				</div>				
 			</div>
+			<div class="header-bottom">
+<?php if (isset($content)) { ?>
+                <div style="display: inline-block;"><?php echo $content; ?></div>
+<?php } ?>
+<?php if ( isset($button_list) ) { ?>
+				<ul class="ul-header-button-list">
+<?php foreach ($button_list as $button) { ?>
+				<li><button class="header-button" onclick="<?php echo $button['action']; ?>" class="header-button"><?php echo $button['title']; ?></button></li>
+<?php } ?>
+				</ul>
+<?php } ?>
+                <button class="header-button"></button>
+                <button class="header-button"></button>
+                <button class="header-button">了解更多</button>
+            </div>
 		</header>
 		<section> <!-- start of main content -->
