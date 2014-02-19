@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<!-- <meta name="description" content="" />
 		<meta name="keywords" content="" /> -->
-		<link rel="stylesheet" href="common.css">
+		<link rel="stylesheet" href="theme/common.css">
         <link rel="stylesheet" href="theme/bootstrap/bootstrap.css">
 
 		<title>首页</title>
@@ -32,8 +32,8 @@
             </div>
             <div class="header-bottom">
                 <div style="display: inline-block;">2014丽星游轮9天8玩环加勒比海游</div>
-                <button class="header-button">></button>
-                <button class="header-button"><</button>
+                <button class="header-button"></button>
+                <button class="header-button"></button>
                 <button class="header-button">了解更多</button>
             </div>
 		</header>
