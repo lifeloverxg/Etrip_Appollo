@@ -1,13 +1,13 @@
 <?php
 // HTML header
 include $home . "template/common/header.php";
+include  $home . "template/common/top.php";
 ?>
-<?php include $home . "template/people/edit_profile.php"; ?>
 <div class="left-main-wrap">
 <?php
 // HTML left panel
-include $home . "template/people/left_frame.php";
-include $home . "template/people/right_frame.php";
+include $home . "template/personal/left_frame.php";
+include $home . "template/personal/right_frame.php";
 ?>
 </div>
 <?php

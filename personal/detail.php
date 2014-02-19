@@ -1,6 +1,6 @@
 <?php
-/*	$home = '../';
-	include_once ($home.'core.php');
+	$home = '../';
+/*	include_once ($home.'core.php');
 	
 	if(!defined('IN_Etrip')) {
 		exit('<h1>503:Service Unavailable @personal:detail</h1>');
