@@ -1,0 +1,14 @@
+.info-title
+{
+	display: block;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.9);
+	color: #FFF;
+	font-size: 1rem;
+	height: 25px;
+}
+
+.info-title>p
+{
+	padding: 0.2rem;
+}

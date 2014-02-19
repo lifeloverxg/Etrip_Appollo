@@ -12,8 +12,14 @@
 		$tpid = $_GET['pid'];
 	}
 
-	$stylesheet = array("theme/common.css");
+	$stylesheet = array("theme/common.css",
+						"theme/personal/detail.css",
+						"theme/common_junxiao.css"
+						);
 
+	$auth = array(
+					'url' => 'theme/image/',
+					);
 /*	
 	$auth = Authority::get_auth_arr();
 

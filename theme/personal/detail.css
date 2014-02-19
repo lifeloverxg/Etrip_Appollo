@@ -1,0 +1,129 @@
+.left-main-wrap
+{
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+/*左边栏*/
+.view-left
+{
+	display: block;
+	width: 37%;
+	float: left;
+	margin-right: 3%;
+}
+
+/*关于我*/
+.section-about
+{
+	display: block;
+	width: 91%;
+	float: left;
+}
+
+.personal-description
+{
+	background: url('../images/personal/aboutme.jpg') no-repeat;
+	min-height: 200px;
+}
+
+.title-underline
+{
+	margin-bottom: 120px;
+}
+
+.title-underline>p
+{
+	display: block;
+	width: 80%;
+	padding-top: 0.8rem;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 0.3rem;
+	color: #FFF;
+}
+
+.underline
+{
+	margin: 0 auto;
+	display: block;
+	width: 80%;
+	background:#000;
+	height: 0.1rem;
+	text-align: center; 
+}
+
+.description-content
+{
+	text-align: center;
+	color: #FFF;
+}
+/*客服反馈*/
+.section-feed
+{
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+/*右边栏*/
+.view-right
+{
+	display: block;
+	width: 60%;
+	float: left;
+}
+
+/*右上*/
+.view-right-top
+{
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+/*右上左*/
+.view-right-top-left
+{
+	display: block;
+	width: 37%;
+	margin-right: 3%;
+	float: left;
+}
+
+/*订单查询*/
+.section-order
+{
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+/*旅行规划*/
+.section-trip-plan
+{
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+/*右上右(旅行日记)*/
+.section-trip-diary
+{
+	display: block;
+	width: 60%;
+	float: left;
+}
+
+/*右下(相册)*/
+.section-image-list
+{
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+
+
+
