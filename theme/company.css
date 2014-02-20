@@ -1,3 +1,8 @@
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
 .section-company-left {
     float: left;
     width: 49%;
@@ -38,9 +43,70 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
+.section-company-department ul li {
+    display: inline-block;
+    padding: 8px 10px;
+}
+
+.section-company-department button {
+    width: 80px;
+}
+
 .section-company-description {
     float: left;
     width: 49%;
     height: 600px; 
     background: rgba(0, 0, 0, 0.5);
+}
+
+.info-detail {
+    padding: 15px;
+    line-height: 25px;
+}
+
+.info-detail ul li {
+    list-style-type: none;
+    color: white;
+}
+
+.service-cell {
+    width: 100%;
+    height: calc((100% - 25px)/4);
+    overflow: hidden;
+}
+
+.service-img {
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+
+.service-title {
+    float: left;
+    width: 40%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    line-height: 90px;
+}
+
+.company-description {
+    padding: 15px;
+    color: white;
+}
+
+.description-info {
+    height: 360px;
+    overflow-y: scroll;
+    word-wrap: break-word;
+    word-break: normal;
+    margin-bottom: 20px;
+}
+
+.description-comment>textarea {
+    resize: none;
+    overflow: hidden;
+    height: 100px;
+    border: 1px solid #CCC;
+    width: 100%;
 }
