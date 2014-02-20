@@ -12,8 +12,7 @@
 		$tpid = $_GET['pid'];
 	}
 
-	$stylesheet = array("theme/common.css",
-                        "theme/common_junxiao.css",
+	$stylesheet = array("theme/common_junxiao.css",
 						"theme/company.css"
 						);
 
