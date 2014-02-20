@@ -70,6 +70,19 @@
 						'在拉斯维加斯打一场高尔夫'
 						);
 
+	$trip_diary = array(
+						array(
+							'title' => '第一天: 纽约——坎昆——哈瓦那',
+							'content' => '从纽约JFK机场飞往哈瓦那国际机场，途经墨西哥坎昆转机，路程大约8小时，当日离开机场后直接去酒店休整...',
+							'action' => array(
+												'route' => '',
+												'hotel' => ''
+												),
+							'hotel' => 'Ibeoster de Park Hotel'
+							)
+						);
+
+
 /*	
 	$auth = Authority::get_auth_arr();
 
