@@ -15,7 +15,6 @@
 									<span class="list-title-member"><?php echo $auth['title']?></span>
 								</a>
 								<div>
-									<div class="before-textarea-triangle"></div>
 									<textarea class="comment-textarea" id="newfeed-textarea-id" placeholder="发表新鲜事" title="发表新鲜事" value="发表新鲜事"></textarea>
 									<button class="button-reply" onclick="<?php echo $feed_list['add_feed']['action']; ?>"><?php echo $feed_list['add_feed']['title']; ?></button>
 								</div>
@@ -36,53 +35,15 @@
 							<div class="feed-right-area">
 								<!-- board area -->
 								<div class="div-feed-list-feed">
-	<?php 		if (isset($feed['score']) && $feed['score'] != "") { ?>
-										<!-- review score area appears only if there is a score -->
-										<div class="div-feed-list-feed-score">
-											<div class="div-rating-small">
-												<div class="rating-small-stars"></div>
-												<div class="rating-small-score"><span></span></div>
-											</div>
-										</div>
-	<?php 		} ?>
 									<!-- board content -->
 									<a href="<?php echo $home.$feed['owner']['url']; ?>">
 										<span class="list-title-member"><?php echo $feed['owner']['title']?></span>
 									</a>
 									<p><?php echo $feed['content']; ?></p>
-	<?php 		if (isset($feed['image']) && $feed['image']['url'] != "") { ?>
-									<!-- board image area appears only if there is an image -->
-										<div class="div-feed-list-feed-image">
-											<img class="image-large" src="<?php echo $home.$feed['image']['url']; ?>" alt="<?php echo $feed['image']['alt']; ?>" title="<?php echo $feed['image']['title']; ?>">
-										</div>
-<?php 		} ?>
 									<!-- board timestamp -->
 									<span class="time-feed"><?php echo $feed['timestamp']; ?></span>
 								</div>
 								<!-- comments area -->
-								<div class="div-feed-list-comment-list">
-									<div class="div-feed-list-more-comment" id="div-feed-list-more-comment-<?php echo $feed['id']; ?>">
-	<?php 		if (isset($feed['func']['more']) && $feed['func']['more'] != "") { ?>
-										<a href="javascript:" onclick="<?php echo $feed['func']['more']; ?>">查看更多评论</a>
-<?php 		} ?>
-									</div>
-									<!-- comment list -->
-									<ul class="ul-feed-list-comment-list" id="ul-feed-list-comment-list-<?php echo $feed['id']; ?>">
-	<?php 		foreach ($feed['comments']['comment'] as $comment) { ?>
-										<li>
-											<a href="<?php echo $home.$comment['owner']['url']; ?>">
-												<img class="logo-small" src="<?php echo $home.$comment['owner']['image']; ?>" alt="<?php echo $comment['owner']['alt']; ?>" title="<?php echo $comment['owner']['title']; ?>">
-											</a>
-											<div class="comment-right-area">
-												<!-- replyer name -->
-												<a class="replyer-title" href="<?php echo $home.$comment['owner']['url']; ?>"><?php echo $comment['owner']['title']; ?></a>
-												<p><?php echo $comment['content']; ?></p>
-												<span class="comment-time-feed"><?php echo $comment['timestamp']; ?></span>
-											</div>
-										</li>
-<?php 		} ?>
-									</ul>
-								</div>
 	<?php 		if($auth['uid'] > 0) { ?>
 									<!-- reply area -->
 									<!--如果是游客则不显示回复窗口-->
@@ -91,8 +52,8 @@
 											<img class="self-logo-small" src="<?php echo $home.$auth['image']; ?>" alt="<?php echo $auth['alt']; ?>" title="<?php echo $auth['title']; ?>">
 										</a>
 										<div>
-											<textarea class="comment-textarea" id="comment-textarea-<?php echo $feed['id']; ?>" placeholder="发表评论" title="发表评论" value="发表评论"></textarea>
-											<button class="button-reply" onclick="<?php echo $feed['func']['reply']; ?>">评论</button>
+											<textarea class="comment-textarea-comment" id="comment-textarea-<?php echo $feed['id']; ?>" placeholder="回复" title="回复" value="回复"></textarea>
+											<button class="button-reply-comment" onclick="<?php echo $feed['func']['reply']; ?>">回复</button>
 										</div>
 									</div>
 									<!-- 结束回复板块 -->
