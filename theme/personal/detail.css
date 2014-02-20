@@ -65,6 +65,7 @@
 	display: block;
 	width: 100%;
 	float: left;
+	margin-top: 1rem;
 }
 
 /*右边栏*/
@@ -131,7 +132,13 @@
 
 .order-track>.description-content
 {
-	line-height: 3rem;
+	line-height: 2.8rem;
+}
+
+.order-track>.travel-button
+{
+	float: right;
+	margin-right: 0.3rem;
 }
 
 /*旅行规划*/
@@ -140,6 +147,11 @@
 	display: block;
 	width: 100%;
 	float: left;
+}
+
+.ul-travel-plan>li
+{
+	text-align: left;
 }
 
 /*右上右(旅行日记)*/

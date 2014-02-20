@@ -3,13 +3,11 @@
 {
 	height: auto;
 	width:91%;
-	border-radius: 8px;
-	color: #867C9F;
+	color: yellow;
 }
 
 .feed-list-content {
 	background: rgba(0, 0, 0, 0.6);
-	border-radius: 8px;
 	padding: 5px;
 }
 
