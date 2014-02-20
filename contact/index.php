@@ -32,6 +32,18 @@
 呜呼！胜地不常，盛筵难再。兰亭已矣，梓泽丘墟。临别赠言，幸承恩于伟饯；登高作赋，是所望于群公！敢竭鄙怀，恭疏短引。一言均赋，四韵俱成。请洒潘江，各倾陆海云尔：
 “滕王高阁临江渚，佩玉鸣鸾罢歌舞。画栋朝飞南浦云，朱帘暮卷西山雨。闲云潭影日悠悠，物换星移几度秋。阁中帝子今何在，槛外长江空自流。”）";
 
+    $team = array(
+                  'leader' => array('title' => 'CEO', 'name' => 'Dave', 'image' => 'images/staff_1.jpg'),
+                  'others' => array(
+                                    array('title' => 'CEO', 'name' => 'Dave', 'image' => 'images/staff_1.jpg'),
+                                    array('title' => 'CEO', 'name' => 'Dave', 'image' => 'images/staff_1.jpg'),
+                                    array('title' => 'CEO', 'name' => 'Dave', 'image' => 'images/staff_1.jpg'),
+                                    array('title' => 'CEO', 'name' => 'Dave', 'image' => 'images/staff_1.jpg'),
+                                    array('title' => 'CEO', 'name' => 'Dave', 'image' => 'images/staff_1.jpg'),
+                                    array('title' => 'CEO', 'name' => 'Dave', 'image' => 'images/staff_1.jpg'),
+                  )
+    );
+
 /*	
 	$auth = Authority::get_auth_arr();
 
