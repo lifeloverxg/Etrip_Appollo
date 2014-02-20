@@ -3,6 +3,7 @@
 	display: block;
 	width: 100%;
 	float: left;
+	margin-bottom: 1rem;
 }
 
 /*左边栏*/
@@ -163,6 +164,11 @@
 	float: left;
 }
 
+.diary-content
+{
+	line-height: 2rem;
+}
+
 .trip-track
 {
 	display: block;
@@ -176,6 +182,63 @@
 	text-align: left;
 }
 
+.route
+{
+	display: block;
+	float: left;
+	width: 100%;
+}
+.hotel
+{
+	display: block;
+	float: left;
+	width: 100%;
+	margin-bottom: inherit;
+}
+
+.diary-more
+{
+	float: right;
+}
+
+.image-list-left-button {
+    float: left;
+}
+
+.image-list-right-button {
+    float: left;
+}
+
+.image-list-left-button, .image-list-right-button {
+    background: rgba(255, 255, 255, 0.1);
+    height: 60px;
+    width: 15px;
+    padding-top: 45px;
+    padding-left: 5px; 
+    cursor: pointer;  
+}
+
+.image-list-left-button:hover, .image-list-right-button:hover {
+    background: rgba(255, 255, 255, 0.3);   
+}
+
+.ul-image-list
+{
+	padding-left: 0px;
+}
+
+.ul-image-list > li
+{
+  display: inline;
+  list-style: none;
+  padding: 5px;
+  height: 150px;
+  width: 150px;
+  float: left;
+  text-align: center;
+}
+
+
 /*右下(相册)*/
 .section-image-list
 {
@@ -184,7 +247,57 @@
 	float: left;
 }
 
+.image-content
+{
+	display: block;
+	float: left;
+	width: 100%;
+	min-height: 200px;
+	background: rgba(0, 0, 0, 0.6);
+}
 
+.section-image-list .ul-image-list > li
+{
+	display: inline;
+	list-style: none;
+	padding: 5px;
+	height: 150px;
+	width: 200px;
+	float: left;
+	text-align: center;
+}
+
+.section-image-list .image-list-left-button
+{
+    background: rgba(255, 255, 255, 0.1);
+    height: 90px;
+    width: 15px;
+    padding-top: 50px;
+    padding-left: 5px; 
+    cursor: pointer; 
+    margin-top: 10px; 
+}
+
+.section-image-list .image-list-right-button
+{
+    background: rgba(255, 255, 255, 0.1);
+    height: 90px;
+    width: 15px;
+    padding-top: 50px;
+    padding-left: 5px; 
+    cursor: pointer; 
+    margin-top: 0px; 
+}
+
+.section-map
+{
+	width: 100%;
+}
+
+.section-map > .map-image
+{
+	width: 100%;
+}
 
 
 

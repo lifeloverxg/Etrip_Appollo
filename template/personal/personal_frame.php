@@ -12,5 +12,5 @@ include $home . "template/personal/right_frame.php";
 <?php
 // HTML footer
 include $home . "template/common/map.php";
-// include $home . "template/common/footer.php";
+include $home . "template/common/footer.php";
 ?>

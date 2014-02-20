@@ -2,7 +2,7 @@
 {
 	display: block;
 	width: 100%;
-	background: rgba(0, 0, 0, 0.9);
+	background: rgba(0, 0, 0, 0.8);
 	color: #FFF;
 	font-size: 1rem;
 	height: 25px;
@@ -11,4 +11,37 @@
 .info-title>p
 {
 	padding: 0.2rem;
+}
+
+a, a:hover, a:link, a:visited, a:focus {
+    color: yellow;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover
+{
+	color: #FF008F;
+}
+
+.shift-left
+{
+	display: inline-block;
+    height: 30px;
+    line-height: 29px;
+    margin: 10px 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    border: 0;
+}
+
+.shift-right
+{
+	display: inline-block;
+    height: 30px;
+    line-height: 29px;
+    margin: 10px 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    border: 0;
 }

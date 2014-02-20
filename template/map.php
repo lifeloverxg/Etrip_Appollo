@@ -1,3 +1,3 @@
 <section class="section-map">
-	<img class="map-image" src="#" alt="地图" title="地图"/>
+	<img class="map-image" src="<?php echo $home.$map['url']; ?>" alt="<?php echo $map['alt']; ?>" title="<?php echo $map['title']; ?>"/>
 </section>

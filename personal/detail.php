@@ -12,11 +12,15 @@
 		$tpid = $_GET['pid'];
 	}
 
+	$title = "个人页面 -Etrip";
+
 	$stylesheet = array("theme/common.css",
 						"theme/personal/detail.css",
 						"theme/common_junxiao.css",
 						"theme/feed.css"
 						);
+
+	$javascript = array();
 
 	$auth = array(
 					'uid' => 1,
@@ -78,10 +82,49 @@
 												'route' => '',
 												'hotel' => ''
 												),
-							'hotel' => 'Ibeoster de Park Hotel'
+							'hotel' => 'Ibeoster de Park Hotel',
+							'images' => array(
+												array(
+													'url' => 'theme/images/personal/diary_1.jpg',
+													'alt' => '第一张图',
+													'title' => '第一张图'
+													),
+												array(
+													'url' => 'theme/images/personal/diary_2.jpg',
+													'alt' => '第二张图',
+													'title' => '第二张图'
+													)
+												)
 							)
 						);
 
+	$start = '';
+	$image_list = array(
+						array(
+								'action' => '',
+								'image' => 'theme/images/personal/image_list_1.jpg',
+								'alt' => '',
+								'title' => '2013古巴'
+								),
+						array(
+								'action' => '',
+								'image' => 'theme/images/personal/image_list_2.jpg',
+								'alt' => '',
+								'title' => '2013安娜伯格庄园'
+								),
+						array(
+								'action' => '',
+								'image' => 'theme/images/personal/image_list_3.jpg',
+								'alt' => '',
+								'title' => '2013墨西哥坎昆'
+								),
+						);
+
+	$map = array(
+				'url' => 'theme/images/personal/map.jpg',
+				'alt' => '地图',
+				'title' => '地图'
+				);
 
 /*	
 	$auth = Authority::get_auth_arr();
