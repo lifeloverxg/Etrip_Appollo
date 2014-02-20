@@ -28,8 +28,7 @@
 
 		<title><?php echo $title; ?></title>
 -->
-	<link rel="stylesheet" href="../../theme/common.css">
-        <link rel="stylesheet" href="../../theme/bootstrap/bootstrap.css">
+
 <?php foreach ($stylesheet as $value) { ?>
 		<link rel="stylesheet" href="<?php echo $home . $value; ?>">
 <?php } ?>
@@ -89,8 +88,8 @@
 <?php } ?>
 				</ul>
 <?php } ?>
-                <button class="header-button"></button>
-                <button class="header-button"></button>
+                <button class="header-button">></button>
+                <button class="header-button"><</button>
                 <button class="header-button">了解更多</button>
             </div>
 		</header>
