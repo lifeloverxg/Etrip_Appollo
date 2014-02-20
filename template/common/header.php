@@ -32,7 +32,7 @@
 <?php foreach ($stylesheet as $value) { ?>
 		<link rel="stylesheet" href="<?php echo $home . $value; ?>">
 <?php } ?>
-		<title>首页</title>
+		<title><?php echo $title; ?></title>
 	</head>
 	<body>
 		<header>
@@ -85,6 +85,13 @@
 				<ul class="ul-header-button-list">
 <?php foreach ($button_list as $button) { ?>
 				<li><button class="header-button" onclick="<?php echo $button['action']; ?>" class="header-button"><?php echo $button['title']; ?></button></li>
+<?php } ?>
+				</ul>
+<?php } ?>
+<?php if ( isset($route_button_list) && !empty($route_button_list) ) { ?>
+				<ul class="ul-route-button-list">
+<?php foreach ($route_button_list as $button) { ?>
+				<li<?php echo (preg_match('/'.$route.'/', $_SERVER['REQUEST_URI']) > 0)?" class='current'":""; ?>><button class="route-button" onclick="<?php echo $button['action']; ?>" class="header-button"><?php echo $button['title']; ?></button></li>
 <?php } ?>
 				</ul>
 <?php } ?>
