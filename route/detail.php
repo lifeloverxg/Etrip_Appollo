@@ -6,7 +6,7 @@
 		exit('<h1>503:Service Unavailable @personal:detail</h1>');
 	}
 	
-	$route = '全部';
+	$route = 'all';
 
 	if (isset($_GET['route'])) {
 		$route = $_GET['route'];
@@ -32,23 +32,28 @@
 	$route_button_list = array(
 								array(
 										'action' => '',
-										'title' => '全部'
+										'title' => '全部',
+										'id' => 'all',
 										),
 								array(
 										'action' => '',
-										'title' => '北美游'
+										'title' => '北美游',
+										'id' => 'northAmerica'
 										),
 								array(
 										'action' => '',
-										'title' => '欧洲游'
+										'title' => '欧洲游',
+										'id' => 'europe'
 										),
 								array(
 										'action' => '',
-										'title' => '国内游'
+										'title' => '国内游',
+										'id' => 'domestic'
 										),
 								array(
 										'action' => '',
-										'title' => '特色游'
+										'title' => '特色游',
+										'id' => 'special'
 										),
 								);
 
