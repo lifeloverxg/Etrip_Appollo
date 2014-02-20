@@ -12,10 +12,10 @@
                     <p style="font-weight: bold;">关注我们</p>
                     <p style="font-size: 10px; color: #CCC;">您可以在这里找到我们</p>
                     <ul>
-                        <li><a href="javascript:"><img src="images/social_icon1.jpg"></a></li>
-                        <li><a href="javascript:"><img src="images/social_icon2.jpg"></a></li>
-                        <li><a href="javascript:"><img src="images/social_icon3.jpg"></a></li>
-                        <li><a href="javascript:"><img src="images/social_icon4.jpg"></a></li>
+                        <li><a href="javascript:"><img src="<?php echo $home . 'images/social_icon1.jpg'; ?>"></a></li>
+                        <li><a href="javascript:"><img src="<?php echo $home . 'images/social_icon2.jpg'; ?>"></a></li>
+                        <li><a href="javascript:"><img src="<?php echo $home . 'images/social_icon3.jpg'; ?>"></a></li>
+                        <li><a href="javascript:"><img src="<?php echo $home . 'images/social_icon4.jpg'; ?>"></a></li>
                     </ul>
                 </div>
                 <div class="info-column">
@@ -26,7 +26,7 @@
             </div>
             <div class="footer-copyright">
                 <a class="nav-brand" href="#" style="float: right;">
-                    <img src="images/logo.png" class="logo-inc">
+                    <img src="<?php echo $home . 'images/logo.png'; ?>" class="logo-inc">
                 </a>
                 <p>© Copyright Trip LLC 2014</p>
                 <p>A company registered in China, Company number: 1348789</p>

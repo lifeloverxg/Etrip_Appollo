@@ -28,7 +28,8 @@
 
 		<title><?php echo $title; ?></title>
 -->
-
+	<link rel="stylesheet" href="<?php echo $home . 'theme/common.css'; ?>">
+    <link rel="stylesheet" href="<?php echo $home . 'theme/bootstrap/bootstrap.css'; ?>">
 <?php foreach ($stylesheet as $value) { ?>
 		<link rel="stylesheet" href="<?php echo $home . $value; ?>">
 <?php } ?>
@@ -38,7 +39,7 @@
 		<header>
 			<div class="header-top">
 				<a class="nav-brand" href="#">
-                    <img src="../../images/logo.png" class="logo-inc">
+                    <img src="<?php echo $home . 'images/logo.png'; ?>" class="logo-inc">
                 </a>
 				<div class="nav-main">
                     <ul>

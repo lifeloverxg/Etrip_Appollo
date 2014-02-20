@@ -19,7 +19,7 @@
                     <ul>
                         <li><a href="#">首页</a></li>
                         <li><a href="#">路线展示</a></li>
-                        <li><a href="#">公司展示</a></li>
+                        <li><a href="<?php echo $home . 'company/'; ?>">公司展示</a></li>
                         <li><a href="#">联系</a></li>
                         <li><a href="#">DIY</a></li>
                     </ul>
