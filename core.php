@@ -16,6 +16,7 @@
 							   'logo'  => 'theme/images/logo.png',
 							   'auth'  => 'auth',
 							   'company' => 'company',
+							   'route' => 'route',
 							   'contact' => 'contact',
 							   'personal' => 'personal',
 							   'setting'  => '#',

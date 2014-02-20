@@ -21,6 +21,8 @@
 
 	$javascript = array();
 
+	$links = $_SGLOBAL['links'];
+
 	$auth = array(
 					'uid' => 1,
 					'url' => '#',

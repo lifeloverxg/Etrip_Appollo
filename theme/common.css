@@ -16,7 +16,7 @@ body>header {
     right: 0;
     z-index: 100;
     color: white;
-    background: url('../images/zus_index_midsize.jpg');
+    background: url('../theme/images/header/index_header.jpg');
     background-size: 100%;
     margin: 0px auto 30px auto;
     line-height: 50px;
@@ -24,6 +24,30 @@ body>header {
     overflow: hidden;
     font-size: 14px;
     min-width: 800px;
+}
+
+.company-header
+{
+    background: url('../theme/images/header/company_header.jpg');
+    background-size: 120% 100%;
+}
+
+.personal-header
+{
+    background: url('../theme/images/header/personal_header.jpg');
+    background-size: 120% 100%;
+}
+
+.contact-header
+{
+    background: url('../theme/images/header/contact_header.jpg');
+    background-size: 120% 100%;
+}
+
+.route-header
+{
+    background: url('../theme/images/header/route_header.jpg');
+    background-size: 120% 100%;
 }
 
 body>footer {

@@ -14,6 +14,8 @@
 
 	$title = "个人页面 -Etrip";
 
+	$links = $_SGLOBAL['links'];
+
 	$stylesheet = array("theme/common.css",
 						"theme/personal/detail.css",
 						"theme/common_junxiao.css",
