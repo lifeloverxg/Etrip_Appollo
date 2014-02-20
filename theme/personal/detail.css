@@ -269,18 +269,29 @@
 .section-image-list .image-list-left-button
 {
     background: rgba(255, 255, 255, 0.1);
-    height: 90px;
+    height: 80px;
     width: 15px;
     padding-top: 50px;
     padding-left: 5px; 
     cursor: pointer; 
-    margin-top: 10px; 
+    margin-top: 15px;
+    margin-left: 20px; 
+}
+
+.section-image-list .image-list-left-button:hover
+{
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.section-image-list .image-list-right-button:hover
+{
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .section-image-list .image-list-right-button
 {
     background: rgba(255, 255, 255, 0.1);
-    height: 90px;
+    height: 80px;
     width: 15px;
     padding-top: 50px;
     padding-left: 5px; 
