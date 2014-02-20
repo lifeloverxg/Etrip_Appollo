@@ -99,6 +99,6 @@
                 <button class="header-button">></button>
                 <button class="header-button"><</button>
                 <button class="header-button">了解更多</button>
-            </div>
+            </div>	
 		</header>
 		<section> <!-- start of main content -->

@@ -1,3 +1,7 @@
+li
+{
+    list-style-type: none;
+}
 .info-title
 {
 	display: block;
@@ -71,7 +75,7 @@ a:hover
     outline: none;
 }
 
-.ul-route-button-list > .current
+.current
 {
     background: rgba(0, 0, 0, 0.8);
 }

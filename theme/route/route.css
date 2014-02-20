@@ -1,0 +1,133 @@
+.section-route-list-large
+{
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+.ul-route-list-large
+{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+
+.ul-route-list-large > li
+{
+	display: block;
+	width: 100%;
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+.tag-tabs
+{
+	display: block;
+	float: left;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	height: 30px;
+}
+
+.tag-tabs a
+{
+	color: #FFF;
+	margin: 0 auto;
+}
+
+.tag-tabs a:hover
+{
+	color: yellow;
+}
+
+.route-list-title
+{
+	display: block;
+	float: left;
+	width: 45%;
+	color: #FFF;
+	padding-left: 10px;
+	padding-top: 5px;
+	margin: 0 auto;
+}
+
+.route-list-tabs
+{
+	float: left;
+	display: block;
+	width: 55%;
+}
+
+.ul-tag-list
+{
+	display: block;
+	float: left;
+}
+
+.ul-tag-list > li
+{
+	display: inline-block;
+	min-width: 100px;
+	text-align: center;
+	height: 30px;
+	padding-top: 5px;
+	float: left;
+}
+
+.ul-tag-list .current
+{
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.route-list-image
+{
+	width: 430px;
+	float: left;
+}
+
+.image-title
+{
+	text-align: center;
+	background: rgba(255, 255, 255, 0.1);
+	float: left;
+	display: block;
+	width: 100%;
+}
+
+article
+{
+	background: rgba(0, 0, 0, 0.8);
+	color: #FFF;
+	float: left;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.route-list-content
+{
+	display: block;
+}
+
+.route-list-content-label
+{
+	display: inline-block;
+	min-width: 60px;
+	vertical-align: middle;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.route-list-content-detail
+{
+	display: inline-block;
+	width: 50%;
+	white-space: pre-line;
+}
+
+.view-detail
+{
+	text-align: right;
+	margin-right: 10px;
+}
