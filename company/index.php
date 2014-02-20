@@ -22,6 +22,8 @@
 
     $title = "公司展示";
 
+    $links = $_SGLOBAL['links'];
+
     $company_info = array(
                           array('title' => '公司名称', 'info' => 'pi-sun集团'),
                           array('title' => '注册时间', 'info' => '2014年2月14日'),

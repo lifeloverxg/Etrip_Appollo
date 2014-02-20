@@ -66,11 +66,11 @@ else
                 </a>
 				<div class="nav-main">
                     <ul>
-                        <li><a href="#">首页</a></li>
-                        <li><a href="#">路线展示</a></li>
-                        <li><a href="#">公司展示</a></li>
-                        <li><a href="#">联系</a></li>
-                        <li><a href="#">DIY</a></li>
+                        <li><a href="<?php echo $home ?>">首页</a></li>
+                        <li><a href="<?php echo $home . $links['route'] ?>">路线展示</a></li>
+                        <li><a href="<?php echo $home . $links['company'] ?>">公司展示</a></li>
+                        <li><a href="<?php echo $home . $links['contact'] ?>">联系</a></li>
+                        <li><a href="<?php echo $home . $links['personal'] ?>">DIY</a></li>
                     </ul>
                 </div>
 

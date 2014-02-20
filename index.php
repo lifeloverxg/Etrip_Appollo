@@ -17,11 +17,11 @@
                 </a>
                 <div class="nav-main">
                     <ul>
-                        <li><a href="#">首页</a></li>
-                        <li><a href="#">路线展示</a></li>
-                        <li><a href="<?php echo $home . 'company/'; ?>">公司展示</a></li>
-                        <li><a href="#">联系</a></li>
-                        <li><a href="#">DIY</a></li>
+                        <li><a href="javascript: ">首页</a></li>
+                        <li><a href="route">路线展示</a></li>
+                        <li><a href="company">公司展示</a></li>
+                        <li><a href="contact">联系</a></li>
+                        <li><a href="personal">DIY</a></li>
                     </ul>
                 </div>
                 <div class="panel-user">
