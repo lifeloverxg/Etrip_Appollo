@@ -12,5 +12,6 @@
 				芝加哥深度4日游(纽约出发)
 				订单状态：已经出票
 			</div>
+			<button class="travel-button" onclick="javascript: ">历史订单</button>
 		</div>
 	</section>
