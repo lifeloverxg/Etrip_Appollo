@@ -6,7 +6,7 @@
 		exit('<h1>503:Service Unavailable @personal:index</h1>');
 	}
 */
-	$route = '全部';
+	$route = 'all';
 
 	if ((isset($_GET['route'])) && (($_GET['route']) != ""))
 	{

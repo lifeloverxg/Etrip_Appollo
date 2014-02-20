@@ -1,3 +1,7 @@
+li
+{
+    list-style-type: none;
+}
 .info-title
 {
 	display: block;
@@ -56,6 +60,7 @@ a:hover
 .ul-route-button-list>li
 {
     display: inline-block;
+    min-width: 100px;
 }
 
 .route-button
@@ -66,4 +71,11 @@ a:hover
     color: #FFF;
     background: inherit;
     border: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.current
+{
+    background: rgba(0, 0, 0, 0.8);
 }

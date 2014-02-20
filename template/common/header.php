@@ -36,7 +36,30 @@
 		<title><?php echo $title; ?></title>
 	</head>
 	<body>
-		<header>
+		<header 
+<?php 
+if (stristr($_SERVER['REQUEST_URI'], 'personal'))
+{
+	echo "class='personal-header'";
+}
+else if (stristr($_SERVER['REQUEST_URI'], 'company'))
+{
+	echo "class='company-header'";
+}
+else if (stristr($_SERVER['REQUEST_URI'], 'contact'))
+{
+	echo "class='contact-header'";
+}
+else if (stristr($_SERVER['REQUEST_URI'], 'route'))
+{
+	echo "class='route-header'";
+}
+else
+{
+	echo "class='index-header'";
+}
+?>
+			>
 			<div class="header-top">
 				<a class="nav-brand" href="#">
                     <img src="<?php echo $home . 'images/logo.png'; ?>" class="logo-inc">
@@ -92,13 +115,13 @@
 <?php if ( isset($route_button_list) && !empty($route_button_list) ) { ?>
 				<ul class="ul-route-button-list">
 <?php foreach ($route_button_list as $button) { ?>
-				<li<?php echo (preg_match('/'.$route.'/', $_SERVER['REQUEST_URI']) > 0)?" class='current'":""; ?>><button class="route-button" onclick="<?php echo $button['action']; ?>" class="header-button"><?php echo $button['title']; ?></button></li>
+				<li<?php echo (stristr($_SERVER['REQUEST_URI'], $button['id']))?" class='current'":""; ?>><button class="route-button" onclick="<?php echo $button['action']; ?>" class="header-button"><?php echo $button['title']; ?></button></li>
 <?php } ?>
 				</ul>
 <?php } ?>
                 <button class="header-button">></button>
                 <button class="header-button"><</button>
                 <button class="header-button">了解更多</button>
-            </div>
+            </div>	
 		</header>
 		<section> <!-- start of main content -->
