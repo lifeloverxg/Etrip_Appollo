@@ -26,14 +26,6 @@
 
 	$javascript = array();
 
-	$auth = array(
-					'uid' => 1,
-					'url' => '#',
-					'image_large' => 'theme/images/personal/self.jpg',
-					'image' => 'theme/images/personal/self.jpg',
-					'alt' => 'self',
-					'title' => 'self'
-					);
 	$feed_list = array(
 						'add_feed' => array(
 											'action' => '',
