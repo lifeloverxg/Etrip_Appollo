@@ -148,7 +148,7 @@
 	
 //test
 	$test = PeopleDAO::get_people_basic_pid(1);
-	var_dump($test);
+//	var_dump($test);
 //test	
 	include S_ROOT."template/route/route_frame.php";
 ?>
