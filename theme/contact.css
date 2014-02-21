@@ -1,3 +1,8 @@
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
 .section-contact-left {
     float: left;
     width: 49%;
@@ -81,9 +86,19 @@
     font-size: 12px;
 }
 
+.team-wrap {
+    width: 100%;
+    height: calc(100% - 25px);
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
 .team-leader {
     float: left;
     width: 20%;
+    height: 50%;
+    margin-top: 20%;
 }
 
 .team-others {
@@ -93,11 +108,30 @@
 
 .section-contact-team ul li {
     display: inline-block;
-    margin: 2px;
+    margin: 8px 12px;
 }
 
 .section-contact-team img {
-    border-radius: 60px;
-    width: 100px;
-    height: 100px;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+}
+
+.contact-panel-wrap {
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+
+.contact-panel-input {
+    width: 50%;
+    border: 1px solid #CCC;
+}
+
+.contact-panel-wrap textarea {
+    resize: none;
+    width: 100%;
+    overflow: hidden;
+    height: 150px;
+    border: 1px solid #CCC;
 }
