@@ -2,11 +2,11 @@
 
 	@define('IN_Etrip', TRUE);
 	session_start();
-	
+/*	
 	if(!defined('IN_Etrip')) {
 		exit('<h1>503:Service Unavailable @root:core</h1>');
 	}
-
+*/
     $_SGLOBAL = array();
 	$_SCONFIG = array();
 	
@@ -33,11 +33,13 @@
 	
 	// load configure file
 //	include_once(S_ROOT.'conf/config.php');
+	include_once(S_ROOT.'conf/config_local.php');
 
 	// load modules
-//	foreach (glob(S_ROOT.'util/*.php') as $module) { 
-//		include_once($module);
-//	}
+	foreach (glob(S_ROOT.'util/*.php') as $module) 
+	{ 
+		include_once($module);
+	}
 
 //	Authority::refresh_session();
 	
