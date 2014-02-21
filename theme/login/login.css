@@ -1,0 +1,118 @@
+.div-welcome {
+	padding-top: 100px;
+	background: url("../images/welcome_bg.jpg") no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.div-welcome>header {
+	width: 100%;
+	height: 25%;
+	min-height: 50px;
+	max-height: 350px;
+}
+
+
+.div-login {
+	float: left;
+	position: relative;
+	top: 30%;
+	left: 70%;
+	left: -webkit-calc(78% - 100px);
+	left: -moz-calc(78% - 100px);
+	left: calc(78% - 100px);
+	width: 200px;
+	height: 30px;
+}
+
+.div-login>a {
+	font-size: 1.8rem;
+	margin-top: 10px;
+	display: inline;
+	width: 80px;
+	border: 0;
+	color: #ddd;
+	font-weight: bold;
+}
+
+.div-login>a:hover[name="signup"] {
+	color: #AF94D4;
+}
+
+.div-login>a:hover[name="signin"] {
+	color: #767DE0;
+}
+
+.div-login>a:hover[name="signout"] {
+	color: #93095A;
+}
+
+.div-auth {
+	width: 500px;
+	padding: 60px 100px 100px 100px;
+	margin: 50px auto 200px auto;
+	text-align: center;
+	background: rgba(20, 12, 27, 0.8);
+	border-radius: 3%;
+}
+
+.back  {
+	display: none;
+}
+
+.div-auth h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+	color: #EEE;
+}
+
+.div-auth input {
+	font-size: 1.5rem;
+	width: 260px;
+	padding: 2px 8px;
+	display: inline-block;
+	border-top: 0;
+}
+
+.div-auth input[type=submit] {
+	margin-top: 25px;
+	border: 0px;
+}
+
+.div-auth footer>button {
+	font-size: 1.5rem;
+	display: inline-block;
+	margin-top: 10px;
+	width: 260px;
+	border: 0;
+}
+
+.div-signin footer>button{
+	background: #AF94D4;
+}
+
+.div-signin footer>button:hover {
+	background: #b498d9;
+}
+
+.div-signup footer>button {
+	background: #767DE0;
+}
+
+.div-signup footer>button:hover {
+	background: #7C84ED;
+}
+
+.ul-error-message {
+	display: inline-block;
+	width: 260px;
+	margin: 10px 0;
+	padding: 0;
+}
+
+.ul-error-message>li {
+	text-align: left;
+	margin: 5px 0;
+	color: #f798ae;
+}

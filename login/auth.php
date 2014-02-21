@@ -14,6 +14,7 @@ $bm->mark();
 	$links = $_SGLOBAL['links'];
 
 	$stylesheet = array(
+						'theme/login/login.css'
 						);
 	$javascript = array('js/etrip/login.js');
 	$links = $_SGLOBAL['links'];
