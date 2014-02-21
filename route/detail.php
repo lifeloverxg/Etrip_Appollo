@@ -5,6 +5,8 @@
 	if(!defined('IN_Etrip')) {
 		exit('<h1>503:Service Unavailable @personal:detail</h1>');
 	}
+
+	$auth = Authority::get_auth_arr();
 	
 	$route = 'all';
 
@@ -22,7 +24,7 @@
 	$javascript = array();
 
 	$links = $_SGLOBAL['links'];
-
+/*
 	$auth = array(
 					'uid' => 1,
 					'url' => '#',
@@ -31,7 +33,7 @@
 					'alt' => 'self',
 					'title' => 'self'
 					);
-
+*/
 	$route_button_list = array(
 								array(
 										'action' => '',

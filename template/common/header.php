@@ -93,7 +93,7 @@ else
 					</div>
 					
 					<div class="panel-user-main">
-						<a href="<?php echo $home . $links['people']; ?>">
+						<a href="<?php echo $home . $links['personal']; ?>">
 							<span>欢迎回来，</span><span><?php echo $auth['title']; ?></span>
 							<img class="logo-medium" src="<?php echo $home.$auth['image']; ?>" alt="<?php echo $auth['alt']; ?>" title="<?php echo $auth['title']; ?>">
 						</a>
