@@ -13,7 +13,9 @@
 			$person = array(
 							'url' => '',
 							'alt' => '',
-							'title' => ''
+							'title' => '',
+							'image' => DefaultImage::People.'_small.jpg',
+							'image_large' => DefaultImage::People.'_large.jpg'
 			);
 			
 			// #2 get person basic info
@@ -25,9 +27,17 @@
 			$result = $stmt->get_result();
 			if ($row = $result->fetch_array(MYSQLI_ASSOC)) {
 				$person['url'] = 'people?pid='.$pid;
+
+				if (!empty($row['avatar'])) 
+				{
+					$person['image'] = $row['avatar'].'_small.jpg';
+					$person['image_large'] = $row['avatar'].'_large.jpg';
+				}
+
 				$person['alt']   = strip_tags($row['name']);
 				$person['title'] = strip_tags($row['name']);
 			}
+
 			$stmt->close();
 			return $person;
 		}
