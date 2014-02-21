@@ -7,5 +7,5 @@ include $home . "template/company/service.php";
 
 <?php
 // HTML left panel
-include $home . "template/common/image_list.php";
+include $home . "template/company/image_list.php";
 ?>

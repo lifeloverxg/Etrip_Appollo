@@ -1,3 +1,56 @@
+<?php
+	$home = '';
+	include_once ($home.'core.php');
+	
+	if(!defined('IN_Etrip')) {
+		exit('<h1>503:Service Unavailable @index:detail</h1>');
+	}
+	
+	$tpid = 0;
+
+	if (isset($_GET['pid'])) {
+		$tpid = $_GET['pid'];
+	}
+
+	$stylesheet = array("theme/common_junxiao.css",
+						"theme/company.css"
+						);
+
+	$auth = array(
+					'url' => 'theme/image/',
+					);
+
+    $title = "公司展示";
+
+    $links = $_SGLOBAL['links'];
+
+    $company_info = array(
+                          array('title' => '公司名称', 'info' => 'pi-sun集团'),
+                          array('title' => '注册时间', 'info' => '2014年2月14日'),
+                          array('title' => '注册资本', 'info' => '5,000,000美元'),
+                          array('title' => '注册地点', 'info' => '纽约'),
+                          array('title' => '公司规模', 'info' => '员工50人')
+                    );
+
+    $department_list = array("财务部门", "客服部门", "行政部门", "旅游部门", "市场部门", "地产部门");
+
+    $image_service = array(
+                        'customer' => 'images/company_1.jpg',
+                        'market' => 'images/company_2.jpg',
+                        'travel' => 'images/company_3.jpg',
+                        'private' => 'images/company_4.jpg',
+    );
+
+    $image_list = array(
+                        array(
+                              'image' => 'images/company_1.jpg',
+                              'alt' => '',
+                              'title' => ''
+                        )
+    );
+
+?>
+
 <!DOCTYPE html>
 <html lang="utf-8">
 	<head>
