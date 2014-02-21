@@ -130,6 +130,10 @@ body>header a:hover {
     margin-left: 23%;
 }
 
+.nav-main>ul>li>a {
+    color: white;
+}
+
 .nav-main>ul>li {
     margin-right: 5%;
     display: inline-block;

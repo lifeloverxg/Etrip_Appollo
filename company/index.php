@@ -15,6 +15,7 @@
 	$stylesheet = array(
 						"theme/company.css"
 						);
+    $javascript = array();
 
 	$auth = array(
 					'url' => 'theme/image/',

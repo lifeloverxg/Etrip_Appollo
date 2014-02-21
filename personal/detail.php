@@ -18,9 +18,8 @@
 
 	$links = $_SGLOBAL['links'];
 
-	$stylesheet = array("theme/common.css",
+	$stylesheet = array(
 						"theme/personal/detail.css",
-						"theme/common_junxiao.css",
 						"theme/feed.css"
 						);
 
