@@ -33,14 +33,14 @@
 “滕王高阁临江渚，佩玉鸣鸾罢歌舞。画栋朝飞南浦云，朱帘暮卷西山雨。闲云潭影日悠悠，物换星移几度秋。阁中帝子今何在，槛外长江空自流。”）";
 
     $team = array(
-                  'leader' => array('title' => 'CEO', 'name' => 'Dave', 'image' => 'images/staff_1.jpg'),
+                  'leader' => array('title' => 'CEO', 'name' => 'Dave', 'image' => 'images/staff_3.jpg'),
                   'others' => array(
-                                    array('title' => 'CEO', 'name' => 'Dave', 'image' => 'images/staff_1.jpg'),
-                                    array('title' => 'CEO', 'name' => 'Dave', 'image' => 'images/staff_1.jpg'),
-                                    array('title' => 'CEO', 'name' => 'Dave', 'image' => 'images/staff_1.jpg'),
-                                    array('title' => 'CEO', 'name' => 'Dave', 'image' => 'images/staff_1.jpg'),
-                                    array('title' => 'CEO', 'name' => 'Dave', 'image' => 'images/staff_1.jpg'),
-                                    array('title' => 'CEO', 'name' => 'Dave', 'image' => 'images/staff_1.jpg'),
+                                    array('title' => '财务部门主管', 'name' => 'Lauren', 'image' => 'images/staff_1.jpg'),
+                                    array('title' => '公关部门主管', 'name' => 'Amy', 'image' => 'images/staff_2.jpg'),
+                                    array('title' => '市场部门主管', 'name' => 'Adam', 'image' => 'images/staff_4.jpg'),
+                                    array('title' => '旅游部门主管', 'name' => 'James', 'image' => 'images/staff_5.jpg'),
+                                    array('title' => '客服部门主管', 'name' => 'Erin', 'image' => 'images/staff_6.jpg'),
+                                    array('title' => '地产部门主管', 'name' => 'Alex', 'image' => 'images/staff_7.jpg'),
                   )
     );
 
