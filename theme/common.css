@@ -122,16 +122,20 @@ body>header a:hover {
 /*Navigation bar*/
 .nav-main {
     float: left;
-    width: 50%;
+    width: 48%;
     height: inherit;
     padding-left: 5%;
     vertical-align: center;
     white-space: nowrap;
-    margin-left: 23%;
+    margin-left: 18%;
 }
 
 .nav-main>ul>li>a {
     color: white;
+}
+
+.nav-main>ul>li>a:hover {
+    color: yellow;
 }
 
 .nav-main>ul>li {
@@ -148,9 +152,9 @@ body>header a:hover {
 
 .panel-user {
     float: right;
-    width: 13%;
+    width: 18%;
     height: inherit;
-    text-align: right;
+    text-align: left;
     margin-right: 20px;
 }
 

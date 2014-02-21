@@ -2,7 +2,7 @@
 								<div class="div-auth">
 				<div class="div-signin <?php echo ($side<=0)?"back":""; ?>">
 					<header>
-						<h1>登陆</h1>
+						<h1>登录</h1>
 					</header>
 					<article>
 						<form method="POST">
@@ -13,7 +13,7 @@
 								<li><?php echo $value; ?></li>
 <?php } ?>
 							</ul>
-							<input type="submit" name="signin" value="登陆">
+							<input type="submit" name="signin" value="登录">
 						</form>
 					</article>
 					<footer>
@@ -39,7 +39,7 @@
 						</form>
 					</article>
 					<footer>
-						<button href="javascript:" onclick="switchSign(1)">登陆</button>
+						<button href="javascript:" onclick="switchSign(1)">登录</button>
 					</footer>
 				</div>
 			</div>
