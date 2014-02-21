@@ -12,8 +12,8 @@
 		$tpid = $_GET['pid'];
 	}
 
-	$stylesheet = array("theme/common_junxiao.css",
-						"theme/contact.css"
+	$stylesheet = array(
+                        "theme/contact.css"
 						);
 
 	$auth = array(

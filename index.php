@@ -12,51 +12,25 @@
 		$tpid = $_GET['pid'];
 	}
 
-	$stylesheet = array("theme/common_junxiao.css",
-						"theme/company.css"
-						);
+	$stylesheet = array();
+    $javascript = array();
 
-	$auth = array(
-					'url' => 'theme/image/',
-					);
+	$auth = Authority::get_auth_arr();
 
-    $title = "公司展示";
+    $title = "首页";
 
     $links = $_SGLOBAL['links'];
-
-    $company_info = array(
-                          array('title' => '公司名称', 'info' => 'pi-sun集团'),
-                          array('title' => '注册时间', 'info' => '2014年2月14日'),
-                          array('title' => '注册资本', 'info' => '5,000,000美元'),
-                          array('title' => '注册地点', 'info' => '纽约'),
-                          array('title' => '公司规模', 'info' => '员工50人')
-                    );
-
-    $department_list = array("财务部门", "客服部门", "行政部门", "旅游部门", "市场部门", "地产部门");
-
-    $image_service = array(
-                        'customer' => 'images/company_1.jpg',
-                        'market' => 'images/company_2.jpg',
-                        'travel' => 'images/company_3.jpg',
-                        'private' => 'images/company_4.jpg',
-    );
-
-    $image_list = array(
-                        array(
-                              'image' => 'images/company_1.jpg',
-                              'alt' => '',
-                              'title' => ''
-                        )
-    );
-
+    
+ include "template/common/header.php";
 ?>
 
+<!--
 <!DOCTYPE html>
 <html lang="utf-8">
 	<head>
 		<meta charset="utf-8" />
-		<!-- <meta name="description" content="" />
-		<meta name="keywords" content="" /> -->
+		 <meta name="description" content="" />
+		<meta name="keywords" content="" /> 
 		<link rel="stylesheet" href="theme/common.css">
         <link rel="stylesheet" href="theme/bootstrap/bootstrap.css">
 
@@ -91,6 +65,7 @@
             </div>
 		</header>
 		<section>
+-->
             <section class="section-middle">
                 <div class="section-middle-left">
                     <div class="user-about">
