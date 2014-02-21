@@ -33,6 +33,18 @@
 <?php foreach ($stylesheet as $value) { ?>
 		<link rel="stylesheet" href="<?php echo $home . $value; ?>">
 <?php } ?>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="<?php echo $home . "js/etrip/common.js"; ?>"></script>
+<?php foreach ($javascript as $value) { ?>
+		<script src="<?php echo $home . $value; ?>"></script>
+<?php } ?>
+		
+		<script>
+			function visit(url)
+			{
+				window.location.href='<?php echo $home; ?>'+url;
+			}
+		</script>
 		<title><?php echo $title; ?></title>
 	</head>
 	<body>
@@ -96,7 +108,7 @@ else
 					</div>
 <?php } else { ?>
 					<div class="panel-user-login">
-						<a href="#">登录</a>
+						<a href="<?php echo $home . $links['login']; ?>">登录</a>
 					</div>
 <?php } ?>
 				</div>				
