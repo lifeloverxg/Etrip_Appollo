@@ -17,7 +17,6 @@
 	$title = $route . "路线展示页面 -Etrip";
 
 	$stylesheet = array(
-						"theme/common_junxiao.css",
 						"theme/route/route.css"
 						);
 
