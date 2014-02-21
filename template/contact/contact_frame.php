@@ -9,10 +9,12 @@ include $home . "template/common/header.php";
 include $home . "template/contact/left_top.php";
 include $home . "template/contact/join_us.php";
 ?>
-        <section class="section-contact-map">
+        <section class="section-contact-map" style="background: url('../images/contact_map.jpg'); background-size: 100%;">
+<!--
 <?php
 include $home . "template/common/map.php";
 ?>
+-->
         </section>
     </section>
     <section class="section-contact-right">    

@@ -110,8 +110,14 @@
                     </div>
                 </div>
             </section>
-            <section class="section-bottom">
-                
+            <section class="section-bottom" style="background: url('images/index_map.jpg') no-repeat; background-size: 100% 100%; overflow: hidden;">
+                <div style="float: left; width: 10%; height: 100%;">
+                    <button class="travel-button" style="width: 30px; height: 30px; margin: 10px 30px;">+</button><br>
+                    <button class="travel-button" style="width: 30px; height: 30px; margin: 10px 30px;">-</button>
+                </div>
+                <div style="float: left; width: 90%; height: 100%;">
+                    <button class="travel-button" style="width: 20%; height: 50px; margin: 12% 35%;">开始定制您的旅游计划</button>
+                </div>
             </section>
 
 <?php include "template/common/footer.php"; ?>
