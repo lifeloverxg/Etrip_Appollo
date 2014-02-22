@@ -17,9 +17,7 @@
 						);
     $javascript = array();
 
-	$auth = array(
-					'url' => 'theme/image/',
-					);
+	$auth = Authority::get_auth_arr();
 
     $title = "联系";
 
